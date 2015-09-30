@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Harmony">
+      <UniqueIdentifier>{86f78aa4-0b1d-4a8f-94b7-1d007589c7ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Harmony\Emulator">
+      <UniqueIdentifier>{d391f91a-d582-4562-818f-49c05a0dbcf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Harmony\Module System">
+      <UniqueIdentifier>{e98a1d55-46a0-449a-bcbf-46242f0a7904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Harmony\StdCrypt">
+      <UniqueIdentifier>{34b57f0e-cf6e-4ca7-835f-dadebf001e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{33881d0d-a056-47a0-8485-99795f86a9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Handlers">
+      <UniqueIdentifier>{92c1b4b4-bc46-44f5-9a05-d69b2f2b7460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pather">
+      <UniqueIdentifier>{485819c2-b951-415e-97f3-66056e1c73ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maps">
+      <UniqueIdentifier>{02c1d007-e66d-4069-8a4a-d17b0f85bab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tasks">
+      <UniqueIdentifier>{a26a15db-d33d-4a17-bfb5-dbb3138fc1de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="younasdecrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aes.cpp">
+      <Filter>Harmony\StdCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.cpp">
+      <Filter>Harmony\StdCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="HarmEmu_Base.cpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="HarmEmuNetwork.cpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="BotNetwork.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="micropather.cpp">
+      <Filter>Source Files\Pather</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTree.cpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="RoInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crc32.h">
+      <Filter>Harmony\StdCrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.h">
+      <Filter>Harmony\StdCrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmModuleBundle.hpp">
+      <Filter>Harmony\Module System</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmModule.hpp">
+      <Filter>Harmony\Module System</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmModuleReal.hpp">
+      <Filter>Harmony\Module System</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmModuleLinker.hpp">
+      <Filter>Harmony\Module System</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmModuleVirt.hpp">
+      <Filter>Harmony\Module System</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmModuleWin32.hpp">
+      <Filter>Harmony\Module System</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmModuleMgr.hpp">
+      <Filter>Harmony\Module System</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Harmony\StdCrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmCtrl.hpp">
+      <Filter>Harmony</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmu.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuRagFile.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmu_Base.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuBinaryHash.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuCore.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuCoreAES.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuHarmConfig.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuMacAddress.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuMisc.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuNetModule.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuNetwork.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuPacketCrypt.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="HarmEmuTimer.hpp">
+      <Filter>Harmony\Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="BotNetwork.hpp">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RoPackets.hpp">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HndlLogin.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hndl_Router.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="HndlUnits.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="HndlAvatar.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="HndlZone.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncMessage.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="micropather.h">
+      <Filter>Source Files\Pather</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncAvatar.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncPathing.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Source Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTree.hpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncMisc.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskMapMove.hpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Tasks.hpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskWorldMove.hpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPath.hpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPath.hpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="MapInfo.hpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncNpc.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="RoInfo.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskNpcWarper.hpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="HndlNpc.hpp">
+      <Filter>Source Files\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskDBRoom.hpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

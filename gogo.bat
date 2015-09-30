@@ -1,0 +1,1 @@
+Debug\younasdecrypt.exe PRODO > younasout.log
